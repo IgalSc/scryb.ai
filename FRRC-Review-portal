@@ -1,0 +1,1135 @@
+AWSTemplateFormatVersion: 2010-09-09
+Metadata:
+  Generator: former2
+  'AWS::CloudFormation::Designer':
+    e61526ff-e3bf-4e2c-a64c-27727098644f:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 810
+        'y': 90
+      z: 1
+      embeds: []
+    b1d50503-39b9-440e-b0c6-7d58cf787a10:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 810
+        'y': 210
+      z: 1
+      embeds: []
+    c6b26524-a7cf-46d1-be31-2ea5baee0112:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 810
+        'y': 330
+      z: 1
+      embeds: []
+      dependson:
+        - b1d50503-39b9-440e-b0c6-7d58cf787a10
+    1b0cd9c4-e59c-40ae-b019-c63053a3db50:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 810
+        'y': 450
+      z: 1
+      embeds: []
+    dd751047-9f1d-4f26-b142-dee707e21935:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 810
+        'y': 570
+      z: 1
+      embeds: []
+    19491dba-1995-4a8a-b946-71610b68aa3f:
+      size:
+        width: 690
+        height: 600
+      position:
+        x: 60
+        'y': 90
+      z: 1
+      embeds:
+        - adfd06c5-00e0-470f-a734-2ebb7a5c7505
+        - 2e36305d-6e8b-47b0-be67-d1cae0a9a6d0
+        - 753806fd-c6e8-400a-83cd-e7476014e4f9
+    79e9a1d7-0deb-460e-a934-0ad49a034315:
+      source:
+        id: 19491dba-1995-4a8a-b946-71610b68aa3f
+      target:
+        id: dd751047-9f1d-4f26-b142-dee707e21935
+    598782fc-7fc6-4b5f-b911-61fda709aaef:
+      size:
+        width: 150
+        height: 150
+      position:
+        x: 480
+        'y': 750
+      z: 1
+      embeds: []
+    adfd06c5-00e0-470f-a734-2ebb7a5c7505:
+      size:
+        width: 240
+        height: 240
+      position:
+        x: 390
+        'y': 150
+      z: 2
+      parent: 19491dba-1995-4a8a-b946-71610b68aa3f
+      embeds:
+        - 319cb67b-d16d-460f-8fc7-1d55a5357152
+      iscontainedinside:
+        - 19491dba-1995-4a8a-b946-71610b68aa3f
+    319cb67b-d16d-460f-8fc7-1d55a5357152:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 420
+        'y': 210
+      z: 3
+      parent: adfd06c5-00e0-470f-a734-2ebb7a5c7505
+      embeds: []
+      iscontainedinside:
+        - adfd06c5-00e0-470f-a734-2ebb7a5c7505
+    2e36305d-6e8b-47b0-be67-d1cae0a9a6d0:
+      size:
+        width: 240
+        height: 240
+      position:
+        x: 90
+        'y': 150
+      z: 2
+      parent: 19491dba-1995-4a8a-b946-71610b68aa3f
+      embeds:
+        - 097a37c2-1c58-493a-a70c-be66e6080a01
+      iscontainedinside:
+        - 19491dba-1995-4a8a-b946-71610b68aa3f
+    097a37c2-1c58-493a-a70c-be66e6080a01:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 120
+        'y': 210
+      z: 3
+      parent: 2e36305d-6e8b-47b0-be67-d1cae0a9a6d0
+      embeds: []
+      iscontainedinside:
+        - 2e36305d-6e8b-47b0-be67-d1cae0a9a6d0
+    753806fd-c6e8-400a-83cd-e7476014e4f9:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 90
+        'y': 450
+      z: 2
+      parent: 19491dba-1995-4a8a-b946-71610b68aa3f
+      embeds: []
+      iscontainedinside:
+        - 19491dba-1995-4a8a-b946-71610b68aa3f
+    13c740e8-7513-4768-ac54-88b4a85d06e4:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 810
+        'y': 690
+      z: 1
+      embeds: []
+    7590fa07-2a3c-4049-a522-fdafc6671f4e:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 690
+        'y': 750
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 13c740e8-7513-4768-ac54-88b4a85d06e4
+    61825257-8af4-4ae4-bb8b-5099271fb179:
+      source:
+        id: 7590fa07-2a3c-4049-a522-fdafc6671f4e
+      target:
+        id: 13c740e8-7513-4768-ac54-88b4a85d06e4
+    e60e0cc8-eddb-42e4-8339-a2cd948b189d:
+      size:
+        width: 150
+        height: 150
+      position:
+        x: 270
+        'y': 750
+      z: 1
+      embeds: []
+    8324ab29-220a-4fa6-8260-c6427940a62b:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 810
+        'y': 810
+      z: 1
+      embeds: []
+    7eb497d2-3fc1-463e-995a-cc69d5daff36:
+      source:
+        id: 8324ab29-220a-4fa6-8260-c6427940a62b
+      target:
+        id: 1b0cd9c4-e59c-40ae-b019-c63053a3db50
+    9884fc05-47dc-49cf-98e3-59904d97c76f:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 930
+        'y': 90
+      z: 1
+      embeds: []
+    b5468494-cccf-4cc2-84fb-1b360f80fff0:
+      source:
+        id: 9884fc05-47dc-49cf-98e3-59904d97c76f
+      target:
+        id: 13c740e8-7513-4768-ac54-88b4a85d06e4
+    b3376016-a50b-403c-b0a0-1832cca4872e:
+      size:
+        width: 150
+        height: 150
+      position:
+        x: 60
+        'y': 750
+      z: 1
+      embeds: []
+    ecbd62d8-083f-4162-82c8-00ad30a034ee:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 930
+        'y': 210
+      z: 1
+      embeds:
+        - 0f88bf6e-bcc6-485f-8bfa-833785d836b5
+    9da2f6b0-883d-4d29-85a5-35c27a8b9ddb:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 930
+        'y': 330
+      z: 1
+      embeds: []
+    0f88bf6e-bcc6-485f-8bfa-833785d836b5:
+      size:
+        width: 140
+        height: 140
+      position:
+        x: 0
+        'y': 0
+      parent: ecbd62d8-083f-4162-82c8-00ad30a034ee
+      embeds:
+        - 9b99bdea-3768-49a7-8226-9b372597ed93
+        - e089db5f-9ac5-43fb-9101-336f68ba25c4
+        - 355dd8b6-ac32-43ee-a041-e58ec09d3afc
+      iscontainedinside:
+        - ecbd62d8-083f-4162-82c8-00ad30a034ee
+    9b99bdea-3768-49a7-8226-9b372597ed93:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 0
+        'y': 0
+      parent: 0f88bf6e-bcc6-485f-8bfa-833785d836b5
+      embeds: []
+      iscontainedinside:
+        - 0f88bf6e-bcc6-485f-8bfa-833785d836b5
+    adee46eb-a954-493a-8e06-27fa567124d9:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 930
+        'y': 450
+      z: 1
+      embeds: []
+    e089db5f-9ac5-43fb-9101-336f68ba25c4:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 0
+        'y': 0
+      parent: 0f88bf6e-bcc6-485f-8bfa-833785d836b5
+      embeds: []
+      iscontainedinside:
+        - 0f88bf6e-bcc6-485f-8bfa-833785d836b5
+    7cea4c87-ae7b-4b39-8db8-a8fc94541d4b:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 930
+        'y': 570
+      z: 1
+      embeds: []
+    284e930c-4c47-468b-975c-a71ae05bba03:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 930
+        'y': 690
+      z: 1
+      embeds: []
+    4b9e3cb1-72a0-4c3b-86cc-27b1418797e6:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 930
+        'y': 810
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - e089db5f-9ac5-43fb-9101-336f68ba25c4
+      iscontainedinside:
+        - b3376016-a50b-403c-b0a0-1832cca4872e
+        - e60e0cc8-eddb-42e4-8339-a2cd948b189d
+    c423e01b-fe37-4920-903f-9378b70b1c3a:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 690
+        'y': 870
+      z: 1
+      embeds: []
+    355dd8b6-ac32-43ee-a041-e58ec09d3afc:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 0
+        'y': 0
+      parent: 0f88bf6e-bcc6-485f-8bfa-833785d836b5
+      embeds: []
+      iscontainedinside:
+        - 0f88bf6e-bcc6-485f-8bfa-833785d836b5
+    553d0d09-cff8-4fb0-b643-2e5630e5e9f2:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 810
+        'y': 930
+      z: 1
+      embeds: []
+    b0722d1f-9ad0-4d63-9388-07291d9a9c37:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 930
+        'y': 930
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 355dd8b6-ac32-43ee-a041-e58ec09d3afc
+    d10facf7-1bad-4458-8e84-6b3a93b57e34:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 60
+        'y': 960
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 355dd8b6-ac32-43ee-a041-e58ec09d3afc
+    33c68f67-8f1b-46ec-899b-35e69d92ae06:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 180
+        'y': 960
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 355dd8b6-ac32-43ee-a041-e58ec09d3afc
+    42203f76-9b61-4420-9700-77064e0c82b2:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 300
+        'y': 960
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 355dd8b6-ac32-43ee-a041-e58ec09d3afc
+    9060134d-88ce-4784-8b5e-fa05866df820:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 420
+        'y': 960
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 355dd8b6-ac32-43ee-a041-e58ec09d3afc
+    4d81040a-cde5-406e-9542-1bdee6770383:
+      source:
+        id: c6b26524-a7cf-46d1-be31-2ea5baee0112
+      target:
+        id: b1d50503-39b9-440e-b0c6-7d58cf787a10
+      z: 11
+Description: ''
+Resources:
+  EC2VPC:
+    Type: 'AWS::EC2::VPC'
+    Properties:
+      CidrBlock: 10.1.1.0/24
+      EnableDnsSupport: true
+      EnableDnsHostnames: true
+      InstanceTenancy: default
+      Tags:
+        - Key: Name
+          Value: !GetAtt ElasticLoadBalancingV2TargetGroup.TargetGroupName
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 0f88bf6e-bcc6-485f-8bfa-833785d836b5
+  ElasticLoadBalancingV2TargetGroup:
+    Type: 'AWS::ElasticLoadBalancingV2::TargetGroup'
+    Properties:
+      HealthCheckIntervalSeconds: 30
+      HealthCheckPath: /api/version.json
+      Port: 8027
+      Protocol: HTTP
+      HealthCheckPort: '8027'
+      HealthCheckProtocol: HTTP
+      HealthCheckTimeoutSeconds: 5
+      UnhealthyThresholdCount: 2
+      TargetType: instance
+      Matcher:
+        HttpCode: '200'
+      HealthyThresholdCount: 2
+      VpcId: !GetAtt EC2Subnet.VpcId
+      Name: !Ref AutoScalingAutoScalingGroup
+      HealthCheckEnabled: true
+      TargetGroupAttributes:
+        - Key: stickiness.enabled
+          Value: 'false'
+        - Key: deregistration_delay.timeout_seconds
+          Value: '300'
+        - Key: stickiness.app_cookie.cookie_name
+          Value: ''
+        - Key: stickiness.type
+          Value: lb_cookie
+        - Key: stickiness.lb_cookie.duration_seconds
+          Value: '86400'
+        - Key: slow_start.duration_seconds
+          Value: '0'
+        - Key: stickiness.app_cookie.duration_seconds
+          Value: '86400'
+        - Key: load_balancing.algorithm.type
+          Value: round_robin
+      Targets:
+        - Id: !Ref EC2Instance2
+          Port: 8027
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: ecbd62d8-083f-4162-82c8-00ad30a034ee
+  AutoScalingLaunchConfiguration:
+    Type: 'AWS::AutoScaling::LaunchConfiguration'
+    Properties:
+      LaunchConfigurationName: !Sub '${ElasticLoadBalancingV2TargetGroup.TargetGroupName}-202100907'
+      ImageId: ami-0d2333e31cd287878
+      KeyName: !GetAtt ElasticLoadBalancingV2TargetGroup.TargetGroupName
+      SecurityGroups:
+        - !Ref EC2SecurityGroup2
+      UserData: >-
+        IyEgL2Jpbi9iYXNoIC14ZQpleGVjID4gPih0ZWUgL3Zhci9sb2cvdXNlci1kYXRhLmxvZ3xsb2dnZXIgLXQgdXNlci1kYXRhIC1zIDI+L2Rldi9jb25zb2xlKSAyPiYxCmFwdC1nZXQgdXBkYXRlICYmIGFwdC1nZXQgaW5zdGFsbCAteSBhcHQtdXRpbHMKYXB0LWdldCB1cGdyYWRlIC15CkRFQklBTl9GUk9OVEVORD0ibm9uaW50ZXJhY3RpdmUiIGFwdC1nZXQgaW5zdGFsbCAteSBnaXQgc29mdHdhcmUtcHJvcGVydGllcy1jb21tb24KYXB0LWdldCBpbnN0YWxsIC15IG9wZW5qZGstMTEtanJlLWhlYWRsZXNzCmFwdC1nZXQgaW5zdGFsbCAteSBtYXZlbgplY2hvIOKAnERvbmUgd2l0aCBwcmVyZXF1aXNpdGVzIGluc3RhbGwsIGNvbW1hbmRlcuKAnQpta2RpciAvaG9tZS9pc2hlbGwKY2QgL2hvbWUvaXNoZWxsCmVjaG8g4oCcQ2xvbmluZyBEb2xseeKAnQpnaXQgY2xvbmUgLS1kZXB0aCAxIC0tYnJhbmNoIHZlci0xLjQuMCBodHRwczovL2dpdGh1Yi5jb20vaWdhbHIvcmVkbGVhZi1qc29uLmdpdApnaXQgY2xvbmUgLS1kZXB0aCAxIC0tYnJhbmNoIHZlci0yLjExLjMgaHR0cHM6Ly9naHBfWjZPMTB4cEV5MkpiQThXT3ZKZVRhM0xLcm15VTdNMkhacno1QGdpdGh1Yi5jb20vaWdhbHIvcmVkbGVhZi1pc2hlbGwyLmdpdApnaXQgY2xvbmUgLS1kZXB0aCAxIC0tYnJhbmNoIHZlci0yLjExLjQgaHR0cHM6Ly9naHBfWjZPMTB4cEV5MkpiQThXT3ZKZVRhM0xLcm15VTdNMkhacno1QGdpdGh1Yi5jb20vaWdhbHIvcmVkbGVhZi1pc2hlbGwyLWRiLmdpdAplY2hvIOKAnERvbmUgd2l0aCBEb2xseSwgbGV04oCZcyBkbyBzb21lIHdvcmvigJ0KY2QgL2hvbWUvaXNoZWxsL3JlZGxlYWYtanNvbgptdm4gaW5zdGFsbApjZCAvaG9tZS9pc2hlbGwvcmVkbGVhZi1pc2hlbGwyCi4vaW5zdGFsbGphcnMuc2gKbXZuIGluc3RhbGwKY2QgL2hvbWUvaXNoZWxsL3JlZGxlYWYtaXNoZWxsMi1kYgptdm4gaW5zdGFsbApjZCAvaG9tZS9pc2hlbGwKZWNobyDigJxEb25lIHdpdGggaXNoZWxsLCBsZXTigJlzIHNldHVwIEZSUi1DbG91ZOKAnQpnaXQgY2xvbmUgaHR0cHM6Ly9yZWxheW1lZGljYWw6UmUxYXlNZWRpY2ExXCFAYml0YnVja2V0Lm9yZy9pZ2Fsci1jaHJvbWVkeC9mcnItY2xvdWQuZ2l0CmNkIC9ob21lL2lzaGVsbC9mcnItY2xvdWQvU2VydmVyCm12biBwYWNrYWdlCmVjaG8g4oCcRG9uZSB3aXRoIGFsbCB0aGUgaW5zdGFsbGF0aW9ucywgbGV04oCZcyBzdGFydCB0aGUgc2VydmljZeKAnQovYmluL3NoIC9ob21lL2lzaGVsbC9mcnItY2xvdWQvU2VydmVyL3J1bi5zaA==
+      InstanceType: t3a.micro
+      BlockDeviceMappings:
+        - DeviceName: /dev/sda1
+          Ebs:
+            SnapshotId: snap-01bb1cfbb2178b4b8
+            VolumeSize: 20
+            VolumeType: gp3
+            DeleteOnTermination: true
+            Iops: 3000
+            Encrypted: false
+            Throughput: 125
+      InstanceMonitoring: false
+      EbsOptimized: false
+      AssociatePublicIpAddress: true
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 9060134d-88ce-4784-8b5e-fa05866df820
+  EC2SecurityGroup:
+    Type: 'AWS::EC2::SecurityGroup'
+    Properties:
+      GroupDescription: !Sub '${ElasticLoadBalancingV2TargetGroup.TargetGroupName}-alb'
+      GroupName: !Sub '${ElasticLoadBalancingV2TargetGroup.TargetGroupName}-alb'
+      VpcId: !Ref EC2VPC
+      SecurityGroupIngress:
+        - CidrIp: 0.0.0.0/0
+          FromPort: 443
+          IpProtocol: tcp
+          ToPort: 443
+        - CidrIpv6: '::/0'
+          FromPort: 443
+          IpProtocol: tcp
+          ToPort: 443
+      SecurityGroupEgress:
+        - CidrIp: 0.0.0.0/0
+          IpProtocol: '-1'
+        - CidrIpv6: '::/0'
+          IpProtocol: '-1'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: e089db5f-9ac5-43fb-9101-336f68ba25c4
+  EC2Subnet:
+    Type: 'AWS::EC2::Subnet'
+    Properties:
+      AvailabilityZone: !GetAtt EC2Subnet4.AvailabilityZone
+      CidrBlock: 10.1.1.16/28
+      VpcId: !GetAtt EC2Subnet2.VpcId
+      MapPublicIpOnLaunch: false
+      Tags:
+        - Key: Name
+          Value: !Sub '${AutoScalingAutoScalingGroup}-2'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: b3376016-a50b-403c-b0a0-1832cca4872e
+  EC2SecurityGroup2:
+    Type: 'AWS::EC2::SecurityGroup'
+    Properties:
+      GroupDescription: !GetAtt ElasticLoadBalancingV2TargetGroup.TargetGroupName
+      GroupName: !GetAtt ElasticLoadBalancingV2TargetGroup.TargetGroupName
+      VpcId: !Ref EC2VPC
+      SecurityGroupIngress:
+        - CidrIp: !Sub '${EC2Instance.PrivateIp}/32'
+          Description: Bastion host
+          FromPort: 22
+          IpProtocol: tcp
+          ToPort: 22
+        - SourceSecurityGroupId: !Ref EC2SecurityGroup
+          SourceSecurityGroupOwnerId: !Ref 'AWS::AccountId'
+          FromPort: 8027
+          IpProtocol: tcp
+          ToPort: 8027
+      SecurityGroupEgress:
+        - CidrIp: 0.0.0.0/0
+          IpProtocol: '-1'
+        - CidrIpv6: '::/0'
+          IpProtocol: '-1'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 355dd8b6-ac32-43ee-a041-e58ec09d3afc
+  EC2SecurityGroup3:
+    Type: 'AWS::EC2::SecurityGroup'
+    Properties:
+      GroupDescription: !Sub '${ElasticLoadBalancingV2TargetGroup.TargetGroupName}-bastion'
+      GroupName: !Sub '${ElasticLoadBalancingV2TargetGroup.TargetGroupName}-bastion'
+      VpcId: !Ref EC2VPC
+      SecurityGroupIngress:
+        - CidrIp: 209.195.127.92/32
+          Description: IgalSc - Home
+          FromPort: 22
+          IpProtocol: tcp
+          ToPort: 22
+        - CidrIp: 34.224.138.194/32
+          Description: IgalSc - ZTV
+          FromPort: 22
+          IpProtocol: tcp
+          ToPort: 22
+        - CidrIp: 166.48.83.154/32
+          Description: igalr - home
+          FromPort: 22
+          IpProtocol: tcp
+          ToPort: 22
+      SecurityGroupEgress:
+        - CidrIp: 0.0.0.0/0
+          IpProtocol: '-1'
+        - CidrIpv6: '::/0'
+          IpProtocol: '-1'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 9b99bdea-3768-49a7-8226-9b372597ed93
+  EC2Subnet2:
+    Type: 'AWS::EC2::Subnet'
+    Properties:
+      AvailabilityZone: !GetAtt EC2Instance.AvailabilityZone
+      CidrBlock: 10.1.1.0/28
+      VpcId: vpc-0863e2561e9b9450e
+      MapPublicIpOnLaunch: true
+      AssignIpv6AddressOnCreation: true
+      Ipv6CidrBlock: '2600:1f11:48d:ce12::/64'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: e60e0cc8-eddb-42e4-8339-a2cd948b189d
+  EC2Instance:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+      ImageId: ami-0801628222e2e96d6
+      InstanceType: t3a.nano
+      KeyName: !Sub '${AutoScalingAutoScalingGroup}-bastion'
+      AvailabilityZone: !GetAtt EC2Subnet3.AvailabilityZone
+      Tenancy: default
+      SubnetId: subnet-02bb8d3a838aa32ce
+      EbsOptimized: true
+      SecurityGroupIds:
+        - sg-0ab714f474a86a9e2
+      SourceDestCheck: true
+      BlockDeviceMappings:
+        - DeviceName: /dev/sda1
+          Ebs:
+            Encrypted: false
+            VolumeSize: 8
+            SnapshotId: snap-0047ef0baf6569349
+            VolumeType: gp3
+            DeleteOnTermination: true
+      Tags:
+        - Key: Name
+          Value: !Sub '${AutoScalingAutoScalingGroup}-bastion'
+      HibernationOptions:
+        Configured: false
+      CpuOptions:
+        CoreCount: 1
+        ThreadsPerCore: 2
+      EnclaveOptions:
+        Enabled: false
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 13c740e8-7513-4768-ac54-88b4a85d06e4
+  EC2VPC2:
+    Type: 'AWS::EC2::VPC'
+    Properties:
+      CidrBlock: 10.0.0.0/24
+      EnableDnsSupport: true
+      EnableDnsHostnames: false
+      InstanceTenancy: default
+      Tags:
+        - Key: Name
+          Value: frr-cloud-prod
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 19491dba-1995-4a8a-b946-71610b68aa3f
+  EC2VPCCidrBlock:
+    Type: 'AWS::EC2::VPCCidrBlock'
+    Properties:
+      VpcId: !Ref EC2VPC2
+      Ipv6CidrBlock: '2600:1f11:34a:8700::/56'
+      Ipv6Pool: Amazon
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 753806fd-c6e8-400a-83cd-e7476014e4f9
+  EC2Subnet3:
+    Type: 'AWS::EC2::Subnet'
+    Properties:
+      AvailabilityZone: !GetAtt EC2Instance2.AvailabilityZone
+      CidrBlock: 10.0.0.0/28
+      VpcId: !Ref EC2VPC2
+      MapPublicIpOnLaunch: false
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 2e36305d-6e8b-47b0-be67-d1cae0a9a6d0
+  EC2Subnet4:
+    Type: 'AWS::EC2::Subnet'
+    Properties:
+      AvailabilityZone: !Sub '${AWS::Region}b'
+      CidrBlock: 10.0.0.16/28
+      VpcId: !Ref EC2VPC2
+      MapPublicIpOnLaunch: false
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: adfd06c5-00e0-470f-a734-2ebb7a5c7505
+  EC2RouteTable:
+    Type: 'AWS::EC2::RouteTable'
+    Properties:
+      VpcId: !Ref EC2VPC2
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 598782fc-7fc6-4b5f-b911-61fda709aaef
+  EC2VPCDHCPOptionsAssociation:
+    Type: 'AWS::EC2::VPCDHCPOptionsAssociation'
+    Properties:
+      DhcpOptionsId: dopt-092e5d61
+      VpcId: !Ref EC2VPC2
+  EC2VPCGatewayAttachment:
+    Type: 'AWS::EC2::VPCGatewayAttachment'
+    Properties:
+      InternetGatewayId: !Ref EC2InternetGateway
+      VpcId: !Ref EC2VPC2
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 79e9a1d7-0deb-460e-a934-0ad49a034315
+  EC2SubnetCidrBlock:
+    Type: 'AWS::EC2::SubnetCidrBlock'
+    Properties:
+      Ipv6CidrBlock: '2600:1f11:34a:8710::/64'
+      SubnetId: !Ref EC2Subnet3
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 097a37c2-1c58-493a-a70c-be66e6080a01
+  EC2SubnetCidrBlock2:
+    Type: 'AWS::EC2::SubnetCidrBlock'
+    Properties:
+      Ipv6CidrBlock: '2600:1f11:34a:8711::/64'
+      SubnetId: !Ref EC2Subnet4
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 319cb67b-d16d-460f-8fc7-1d55a5357152
+  EC2InternetGateway:
+    Type: 'AWS::EC2::InternetGateway'
+    Properties:
+      Tags:
+        - Key: Name
+          Value: frr-cloud-prod
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: dd751047-9f1d-4f26-b142-dee707e21935
+  EC2EIP:
+    Type: 'AWS::EC2::EIP'
+    Properties:
+      Domain: vpc
+      InstanceId: !Ref EC2Instance
+      Tags:
+        - Key: Name
+          Value: !Sub '${ElasticLoadBalancingV2TargetGroup.TargetGroupName}-bastion'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 7590fa07-2a3c-4049-a522-fdafc6671f4e
+  EC2EIPAssociation:
+    Type: 'AWS::EC2::EIPAssociation'
+    Properties:
+      AllocationId: !GetAtt EC2EIP.AllocationId
+      InstanceId: !Ref EC2Instance
+      NetworkInterfaceId: eni-0c13fd4ab2dfc7212
+      PrivateIpAddress: !GetAtt EC2Instance.PrivateIp
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 61825257-8af4-4ae4-bb8b-5099271fb179
+  EC2Instance2:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+      ImageId: ami-0d2333e31cd287878
+      InstanceType: t3a.micro
+      KeyName: !Ref AutoScalingAutoScalingGroup
+      AvailabilityZone: !Sub '${AWS::Region}a'
+      Tenancy: default
+      SubnetId: subnet-02bb8d3a838aa32ce
+      EbsOptimized: false
+      SecurityGroupIds:
+        - sg-0303b5d176512f636
+      SourceDestCheck: true
+      BlockDeviceMappings:
+        - DeviceName: /dev/sda1
+          Ebs:
+            Encrypted: false
+            VolumeSize: 20
+            SnapshotId: snap-01bb1cfbb2178b4b8
+            VolumeType: gp3
+            DeleteOnTermination: true
+      UserData: >-
+        IyEgL2Jpbi9iYXNoIC14ZQpleGVjID4gPih0ZWUgL3Zhci9sb2cvdXNlci1kYXRhLmxvZ3xsb2dnZXIgLXQgdXNlci1kYXRhIC1zIDI+L2Rldi9jb25zb2xlKSAyPiYxCmFwdC1nZXQgdXBkYXRlICYmIGFwdC1nZXQgaW5zdGFsbCAteSBhcHQtdXRpbHMKYXB0LWdldCB1cGdyYWRlIC15CkRFQklBTl9GUk9OVEVORD0ibm9uaW50ZXJhY3RpdmUiIGFwdC1nZXQgaW5zdGFsbCAteSBnaXQgc29mdHdhcmUtcHJvcGVydGllcy1jb21tb24KYXB0LWdldCBpbnN0YWxsIC15IG9wZW5qZGstMTEtanJlLWhlYWRsZXNzCmFwdC1nZXQgaW5zdGFsbCAteSBtYXZlbgplY2hvIOKAnERvbmUgd2l0aCBwcmVyZXF1aXNpdGVzIGluc3RhbGwsIGNvbW1hbmRlcuKAnQpta2RpciAvaG9tZS9pc2hlbGwKY2QgL2hvbWUvaXNoZWxsCmVjaG8g4oCcQ2xvbmluZyBEb2xseeKAnQpnaXQgY2xvbmUgLS1kZXB0aCAxIC0tYnJhbmNoIHZlci0xLjQuMCBodHRwczovL2dpdGh1Yi5jb20vaWdhbHIvcmVkbGVhZi1qc29uLmdpdApnaXQgY2xvbmUgLS1kZXB0aCAxIC0tYnJhbmNoIHZlci0yLjExLjMgaHR0cHM6Ly9naHBfWjZPMTB4cEV5MkpiQThXT3ZKZVRhM0xLcm15VTdNMkhacno1QGdpdGh1Yi5jb20vaWdhbHIvcmVkbGVhZi1pc2hlbGwyLmdpdApnaXQgY2xvbmUgLS1kZXB0aCAxIC0tYnJhbmNoIHZlci0yLjExLjQgaHR0cHM6Ly9naHBfWjZPMTB4cEV5MkpiQThXT3ZKZVRhM0xLcm15VTdNMkhacno1QGdpdGh1Yi5jb20vaWdhbHIvcmVkbGVhZi1pc2hlbGwyLWRiLmdpdAplY2hvIOKAnERvbmUgd2l0aCBEb2xseSwgbGV04oCZcyBkbyBzb21lIHdvcmvigJ0KY2QgL2hvbWUvaXNoZWxsL3JlZGxlYWYtanNvbgptdm4gaW5zdGFsbApjZCAvaG9tZS9pc2hlbGwvcmVkbGVhZi1pc2hlbGwyCi4vaW5zdGFsbGphcnMuc2gKbXZuIGluc3RhbGwKY2QgL2hvbWUvaXNoZWxsL3JlZGxlYWYtaXNoZWxsMi1kYgptdm4gaW5zdGFsbApjZCAvaG9tZS9pc2hlbGwKZWNobyDigJxEb25lIHdpdGggaXNoZWxsLCBsZXTigJlzIHNldHVwIEZSUi1DbG91ZOKAnQpnaXQgY2xvbmUgaHR0cHM6Ly9yZWxheW1lZGljYWw6UmUxYXlNZWRpY2ExXCFAYml0YnVja2V0Lm9yZy9pZ2Fsci1jaHJvbWVkeC9mcnItY2xvdWQuZ2l0CmNkIC9ob21lL2lzaGVsbC9mcnItY2xvdWQvU2VydmVyCm12biBwYWNrYWdlCmVjaG8g4oCcRG9uZSB3aXRoIGFsbCB0aGUgaW5zdGFsbGF0aW9ucywgbGV04oCZcyBzdGFydCB0aGUgc2VydmljZeKAnQovYmluL3NoIC9ob21lL2lzaGVsbC9mcnItY2xvdWQvU2VydmVyL3J1bi5zaA==
+      Tags:
+        - Key: Name
+          Value: !Sub '${AutoScalingAutoScalingGroup}-in-asg'
+      HibernationOptions:
+        Configured: false
+      CpuOptions:
+        CoreCount: 1
+        ThreadsPerCore: 2
+      EnclaveOptions:
+        Enabled: false
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 1b0cd9c4-e59c-40ae-b019-c63053a3db50
+  EC2VolumeAttachment:
+    Type: 'AWS::EC2::VolumeAttachment'
+    Properties:
+      VolumeId: !Ref EC2Volume
+      InstanceId: !Ref EC2Instance
+      Device: /dev/sda1
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: b5468494-cccf-4cc2-84fb-1b360f80fff0
+  EC2VolumeAttachment2:
+    Type: 'AWS::EC2::VolumeAttachment'
+    Properties:
+      VolumeId: !Ref EC2Volume2
+      InstanceId: !Ref EC2Instance2
+      Device: /dev/sda1
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 7eb497d2-3fc1-463e-995a-cc69d5daff36
+  EC2NetworkInterfaceAttachment:
+    Type: 'AWS::EC2::NetworkInterfaceAttachment'
+    Properties:
+      NetworkInterfaceId: eni-0a33d8dbda7576ba7
+      DeviceIndex: 0
+      InstanceId: !Ref EC2Instance2
+      DeleteOnTermination: true
+  EC2NetworkInterfaceAttachment2:
+    Type: 'AWS::EC2::NetworkInterfaceAttachment'
+    Properties:
+      NetworkInterfaceId: eni-0c13fd4ab2dfc7212
+      DeviceIndex: 0
+      InstanceId: !Ref EC2Instance
+      DeleteOnTermination: true
+  ElasticLoadBalancingV2LoadBalancer:
+    Type: 'AWS::ElasticLoadBalancingV2::LoadBalancer'
+    Properties:
+      Name: frr-cloud-review-portal
+      Scheme: internet-facing
+      Type: application
+      Subnets:
+        - !Ref EC2Subnet
+        - !Ref EC2Subnet2
+      SecurityGroups:
+        - !Ref EC2SecurityGroup
+      IpAddressType: dualstack
+      LoadBalancerAttributes:
+        - Key: access_logs.s3.enabled
+          Value: 'false'
+        - Key: idle_timeout.timeout_seconds
+          Value: '60'
+        - Key: deletion_protection.enabled
+          Value: 'false'
+        - Key: ipv6.deny_all_igw_traffic
+          Value: 'false'
+        - Key: routing.http2.enabled
+          Value: 'true'
+        - Key: routing.http.drop_invalid_header_fields.enabled
+          Value: 'false'
+        - Key: routing.http.xff_client_port.enabled
+          Value: 'false'
+        - Key: routing.http.desync_mitigation_mode
+          Value: defensive
+        - Key: waf.fail_open.enabled
+          Value: 'false'
+        - Key: routing.http.x_amzn_tls_version_and_cipher_suite.enabled
+          Value: 'false'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 4b9e3cb1-72a0-4c3b-86cc-27b1418797e6
+  ElasticLoadBalancingV2Listener:
+    Type: 'AWS::ElasticLoadBalancingV2::Listener'
+    Properties:
+      LoadBalancerArn: !Ref ElasticLoadBalancingV2LoadBalancer
+      Port: 443
+      Protocol: HTTPS
+      SslPolicy: ELBSecurityPolicy-2016-08
+      Certificates:
+        - CertificateArn: !Ref CertificateManagerCertificate
+      DefaultActions:
+        - FixedResponseConfig:
+            MessageBody: Nothing to see here
+            StatusCode: '200'
+            ContentType: text/plain
+          Order: 1
+          Type: fixed-response
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: c423e01b-fe37-4920-903f-9378b70b1c3a
+  ElasticLoadBalancingV2ListenerRule:
+    Type: 'AWS::ElasticLoadBalancingV2::ListenerRule'
+    Properties:
+      Priority: '1'
+      ListenerArn: !Sub >-
+        arn:aws:elasticloadbalancing:${AWS::Region}:${AWS::AccountId}:listener/app/${ElasticLoadBalancingV2LoadBalancer.LoadBalancerName}/210b1912bec951c7/6beac3e2c1c73fea
+      Conditions:
+        - Field: host-header
+          Values:
+            - frrc-prod.relaymedical.com
+      Actions:
+        - Type: forward
+          TargetGroupArn: !Ref ElasticLoadBalancingV2TargetGroup
+          Order: 1
+          ForwardConfig:
+            TargetGroups:
+              - TargetGroupArn: !Ref ElasticLoadBalancingV2TargetGroup
+                Weight: 1
+            TargetGroupStickinessConfig:
+              Enabled: false
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 9da2f6b0-883d-4d29-85a5-35c27a8b9ddb
+  AutoScalingAutoScalingGroup:
+    Type: 'AWS::AutoScaling::AutoScalingGroup'
+    Properties:
+      AutoScalingGroupName: review-portal-prod
+      LaunchConfigurationName: review-portal-prod-202100907
+      MinSize: 1
+      MaxSize: 1
+      DesiredCapacity: 1
+      Cooldown: 300
+      AvailabilityZones:
+        - !Sub '${AWS::Region}a'
+      TargetGroupARNs:
+        - !Sub >-
+          arn:aws:elasticloadbalancing:${AWS::Region}:${AWS::AccountId}:targetgroup/review-portal-prod/8abb6f40e6717c97
+      HealthCheckType: EC2
+      HealthCheckGracePeriod: 300
+      VPCZoneIdentifier:
+        - subnet-02bb8d3a838aa32ce
+      TerminationPolicies:
+        - Default
+      ServiceLinkedRoleARN: !Sub >-
+        arn:aws:iam::${AWS::AccountId}:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling
+      Tags:
+        - Key: Name
+          Value: review-portal-prod-in-asg
+          PropagateAtLaunch: true
+      NewInstancesProtectedFromScaleIn: false
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: c6b26524-a7cf-46d1-be31-2ea5baee0112
+    DependsOn:
+      - IAMServiceLinkedRole
+  AutoScalingLaunchConfiguration2:
+    Type: 'AWS::AutoScaling::LaunchConfiguration'
+    Properties:
+      LaunchConfigurationName: !Sub '${ElasticLoadBalancingV2TargetGroup.TargetGroupName}-202100902-1400'
+      ImageId: ami-0d2333e31cd287878
+      KeyName: !GetAtt ElasticLoadBalancingV2TargetGroup.TargetGroupName
+      SecurityGroups:
+        - !Ref EC2SecurityGroup2
+      UserData: >-
+        IyEgL2Jpbi9iYXNoIC14ZQpleGVjID4gPih0ZWUgL3Zhci9sb2cvdXNlci1kYXRhLmxvZ3xsb2dnZXIgLXQgdXNlci1kYXRhIC1zIDI+L2Rldi9jb25zb2xlKSAyPiYxCmFwdC1nZXQgdXBkYXRlICYmIGFwdC1nZXQgaW5zdGFsbCAteSBhcHQtdXRpbHMKYXB0LWdldCB1cGdyYWRlIC15CkRFQklBTl9GUk9OVEVORD0ibm9uaW50ZXJhY3RpdmUiIGFwdC1nZXQgaW5zdGFsbCAteSBnaXQgc29mdHdhcmUtcHJvcGVydGllcy1jb21tb24KYXB0LWdldCBpbnN0YWxsIC15IG9wZW5qZGstMTEtanJlLWhlYWRsZXNzCmFwdC1nZXQgaW5zdGFsbCAteSBtYXZlbgplY2hvIOKAnERvbmUgd2l0aCBwcmVyZXF1aXNpdGVzIGluc3RhbGwsIGNvbW1hbmRlcuKAnQpta2RpciAvaG9tZS9pc2hlbGwKY2QgL2hvbWUvaXNoZWxsCmVjaG8g4oCcQ2xvbmluZyBEb2xseeKAnQpmb2xkZXI9L2hvbWUvaXNoZWxsCmdpdCBjbG9uZSAtLWRlcHRoIDEgLS1icmFuY2ggdmVyLTEuNC4wIGh0dHBzOi8vZ2l0aHViLmNvbS9pZ2Fsci9yZWRsZWFmLWpzb24uZ2l0ICRmb2xkZXIKZ2l0IGNsb25lIC0tZGVwdGggMSAtLWJyYW5jaCB2ZXItMi4xMS4zIGh0dHBzOi8vZ2hwX1o2TzEweHBFeTJKYkE4V092SmVUYTNMS3JteVU3TTJIWnJ6NUBnaXRodWIuY29tL2lnYWxyL3JlZGxlYWYtaXNoZWxsMi5naXQgJGZvbGRlcgpnaXQgY2xvbmUgLS1kZXB0aCAxIC0tYnJhbmNoIHZlci0yLjExLjQgaHR0cHM6Ly9naHBfWjZPMTB4cEV5MkpiQThXT3ZKZVRhM0xLcm15VTdNMkhacno1QGdpdGh1Yi5jb20vaWdhbHIvcmVkbGVhZi1pc2hlbGwyLWRiLmdpdCAkZm9sZGVyCmVjaG8g4oCcRG9uZSB3aXRoIERvbGx5LCBsZXTigJlzIGRvIHNvbWUgd29ya+KAnQpjZCAvaG9tZS9pc2hlbGwvcmVkbGVhZi1qc29uCm12biBpbnN0YWxsCmNkIC9ob21lL2lzaGVsbC9yZWRsZWFmLWlzaGVsbDIKLi9pbnN0YWxsamFycy5zaAptdm4gaW5zdGFsbApjZCAvaG9tZS9pc2hlbGwvcmVkbGVhZi1pc2hlbGwyLWRiCm12biBpbnN0YWxsCmNkIC9ob21lL2lzaGVsbAplY2hvIOKAnERvbmUgd2l0aCBpc2hlbGwsIGxldOKAmXMgc2V0dXAgRlJSLUNsb3Vk4oCdCmdpdCBjbG9uZcKgaHR0cHM6Ly9yZWxheW1lZGljYWw6UmUxYXlNZWRpY2ExXCFAYml0YnVja2V0Lm9yZy9pZ2Fsci1jaHJvbWVkeC9mcnItY2xvdWQuZ2l0ICRmb2xkZXIKY2QgL2hvbWUvaXNoZWxsL2Zyci1jbG91ZAptdm4gcGFja2FnZQplY2hvIOKAnERvbmUgd2l0aCBhbGwgdGhlIGluc3RhbGxhdGlvbnMsIGxldOKAmXMgc3RhcnQgdGhlIHNlcnZpY2XigJ0KL2Jpbi9zaCAvaG9tZS9pc2hlbGwvZnJyLWNsb3VkL3J1bi5zaA==
+      InstanceType: t3a.micro
+      BlockDeviceMappings:
+        - DeviceName: /dev/sda1
+          Ebs:
+            SnapshotId: snap-01bb1cfbb2178b4b8
+            VolumeSize: 20
+            VolumeType: gp3
+            DeleteOnTermination: true
+            Iops: 3000
+            Encrypted: false
+            Throughput: 125
+      InstanceMonitoring: false
+      EbsOptimized: false
+      AssociatePublicIpAddress: true
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 42203f76-9b61-4420-9700-77064e0c82b2
+  AutoScalingLaunchConfiguration3:
+    Type: 'AWS::AutoScaling::LaunchConfiguration'
+    Properties:
+      LaunchConfigurationName: !Sub '${ElasticLoadBalancingV2TargetGroup.TargetGroupName}-202100902-1405'
+      ImageId: ami-0d2333e31cd287878
+      KeyName: !GetAtt ElasticLoadBalancingV2TargetGroup.TargetGroupName
+      SecurityGroups:
+        - !Ref EC2SecurityGroup2
+      UserData: >-
+        IyEgL2Jpbi9iYXNoIC14ZQpleGVjID4gPih0ZWUgL3Zhci9sb2cvdXNlci1kYXRhLmxvZ3xsb2dnZXIgLXQgdXNlci1kYXRhIC1zIDI+L2Rldi9jb25zb2xlKSAyPiYxCmFwdC1nZXQgdXBkYXRlICYmIGFwdC1nZXQgaW5zdGFsbCAteSBhcHQtdXRpbHMKYXB0LWdldCB1cGdyYWRlIC15CkRFQklBTl9GUk9OVEVORD0ibm9uaW50ZXJhY3RpdmUiIGFwdC1nZXQgaW5zdGFsbCAteSBnaXQgc29mdHdhcmUtcHJvcGVydGllcy1jb21tb24KYXB0LWdldCBpbnN0YWxsIC15IG9wZW5qZGstMTEtanJlLWhlYWRsZXNzCmFwdC1nZXQgaW5zdGFsbCAteSBtYXZlbgplY2hvIOKAnERvbmUgd2l0aCBwcmVyZXF1aXNpdGVzIGluc3RhbGwsIGNvbW1hbmRlcuKAnQpta2RpciAvaG9tZS9pc2hlbGwKY2QgL2hvbWUvaXNoZWxsCmVjaG8g4oCcQ2xvbmluZyBEb2xseeKAnQpnaXQgY2xvbmUgLS1kZXB0aCAxIC0tYnJhbmNoIHZlci0xLjQuMCBodHRwczovL2dpdGh1Yi5jb20vaWdhbHIvcmVkbGVhZi1qc29uLmdpdApnaXQgY2xvbmUgLS1kZXB0aCAxIC0tYnJhbmNoIHZlci0yLjExLjMgaHR0cHM6Ly9naHBfWjZPMTB4cEV5MkpiQThXT3ZKZVRhM0xLcm15VTdNMkhacno1QGdpdGh1Yi5jb20vaWdhbHIvcmVkbGVhZi1pc2hlbGwyLmdpdApnaXQgY2xvbmUgLS1kZXB0aCAxIC0tYnJhbmNoIHZlci0yLjExLjQgaHR0cHM6Ly9naHBfWjZPMTB4cEV5MkpiQThXT3ZKZVRhM0xLcm15VTdNMkhacno1QGdpdGh1Yi5jb20vaWdhbHIvcmVkbGVhZi1pc2hlbGwyLWRiLmdpdAplY2hvIOKAnERvbmUgd2l0aCBEb2xseSwgbGV04oCZcyBkbyBzb21lIHdvcmvigJ0KY2QgL2hvbWUvaXNoZWxsL3JlZGxlYWYtanNvbgptdm4gaW5zdGFsbApjZCAvaG9tZS9pc2hlbGwvcmVkbGVhZi1pc2hlbGwyCi4vaW5zdGFsbGphcnMuc2gKbXZuIGluc3RhbGwKY2QgL2hvbWUvaXNoZWxsL3JlZGxlYWYtaXNoZWxsMi1kYgptdm4gaW5zdGFsbApjZCAvaG9tZS9pc2hlbGwKZWNobyDigJxEb25lIHdpdGggaXNoZWxsLCBsZXTigJlzIHNldHVwIEZSUi1DbG91ZOKAnQpnaXQgY2xvbmXCoGh0dHBzOi8vcmVsYXltZWRpY2FsOlJlMWF5TWVkaWNhMVwhQGJpdGJ1Y2tldC5vcmcvaWdhbHItY2hyb21lZHgvZnJyLWNsb3VkLmdpdApjZCAvaG9tZS9pc2hlbGwvZnJyLWNsb3VkCm12biBwYWNrYWdlCmVjaG8g4oCcRG9uZSB3aXRoIGFsbCB0aGUgaW5zdGFsbGF0aW9ucywgbGV04oCZcyBzdGFydCB0aGUgc2VydmljZeKAnQovYmluL3NoIC9ob21lL2lzaGVsbC9mcnItY2xvdWQvcnVuLnNo
+      InstanceType: t3a.micro
+      BlockDeviceMappings:
+        - DeviceName: /dev/sda1
+          Ebs:
+            SnapshotId: snap-01bb1cfbb2178b4b8
+            VolumeSize: 20
+            VolumeType: gp3
+            DeleteOnTermination: true
+            Iops: 3000
+            Encrypted: false
+            Throughput: 125
+      InstanceMonitoring: false
+      EbsOptimized: false
+      AssociatePublicIpAddress: true
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 33c68f67-8f1b-46ec-899b-35e69d92ae06
+  AutoScalingLaunchConfiguration4:
+    Type: 'AWS::AutoScaling::LaunchConfiguration'
+    Properties:
+      LaunchConfigurationName: !Sub '${ElasticLoadBalancingV2TargetGroup.TargetGroupName}-202100902-1700'
+      ImageId: ami-0d2333e31cd287878
+      KeyName: !GetAtt ElasticLoadBalancingV2TargetGroup.TargetGroupName
+      SecurityGroups:
+        - !Ref EC2SecurityGroup2
+      UserData: >-
+        IyEgL2Jpbi9iYXNoIC14ZQpleGVjID4gPih0ZWUgL3Zhci9sb2cvdXNlci1kYXRhLmxvZ3xsb2dnZXIgLXQgdXNlci1kYXRhIC1zIDI+L2Rldi9jb25zb2xlKSAyPiYxCmFwdC1nZXQgdXBkYXRlICYmIGFwdC1nZXQgaW5zdGFsbCAteSBhcHQtdXRpbHMKYXB0LWdldCB1cGdyYWRlIC15CkRFQklBTl9GUk9OVEVORD0ibm9uaW50ZXJhY3RpdmUiIGFwdC1nZXQgaW5zdGFsbCAteSBnaXQgc29mdHdhcmUtcHJvcGVydGllcy1jb21tb24KYXB0LWdldCBpbnN0YWxsIC15IG9wZW5qZGstMTEtanJlLWhlYWRsZXNzCmFwdC1nZXQgaW5zdGFsbCAteSBtYXZlbgplY2hvIOKAnERvbmUgd2l0aCBwcmVyZXF1aXNpdGVzIGluc3RhbGwsIGNvbW1hbmRlcuKAnQpta2RpciAvaG9tZS9pc2hlbGwKY2QgL2hvbWUvaXNoZWxsCmVjaG8g4oCcQ2xvbmluZyBEb2xseeKAnQpnaXQgY2xvbmUgLS1kZXB0aCAxIC0tYnJhbmNoIHZlci0xLjQuMCBodHRwczovL2dpdGh1Yi5jb20vaWdhbHIvcmVkbGVhZi1qc29uLmdpdApnaXQgY2xvbmUgLS1kZXB0aCAxIC0tYnJhbmNoIHZlci0yLjExLjMgaHR0cHM6Ly9naHBfWjZPMTB4cEV5MkpiQThXT3ZKZVRhM0xLcm15VTdNMkhacno1QGdpdGh1Yi5jb20vaWdhbHIvcmVkbGVhZi1pc2hlbGwyLmdpdApnaXQgY2xvbmUgLS1kZXB0aCAxIC0tYnJhbmNoIHZlci0yLjExLjQgaHR0cHM6Ly9naHBfWjZPMTB4cEV5MkpiQThXT3ZKZVRhM0xLcm15VTdNMkhacno1QGdpdGh1Yi5jb20vaWdhbHIvcmVkbGVhZi1pc2hlbGwyLWRiLmdpdAplY2hvIOKAnERvbmUgd2l0aCBEb2xseSwgbGV04oCZcyBkbyBzb21lIHdvcmvigJ0KY2QgL2hvbWUvaXNoZWxsL3JlZGxlYWYtanNvbgptdm4gaW5zdGFsbApjZCAvaG9tZS9pc2hlbGwvcmVkbGVhZi1pc2hlbGwyCi4vaW5zdGFsbGphcnMuc2gKbXZuIGluc3RhbGwKY2QgL2hvbWUvaXNoZWxsL3JlZGxlYWYtaXNoZWxsMi1kYgptdm4gaW5zdGFsbApjZCAvaG9tZS9pc2hlbGwKZWNobyDigJxEb25lIHdpdGggaXNoZWxsLCBsZXTigJlzIHNldHVwIEZSUi1DbG91ZOKAnQpnaXQgY2xvbmUgaHR0cHM6Ly9yZWxheW1lZGljYWw6UmUxYXlNZWRpY2ExXCFAYml0YnVja2V0Lm9yZy9pZ2Fsci1jaHJvbWVkeC9mcnItY2xvdWQuZ2l0CmNkIC9ob21lL2lzaGVsbC9mcnItY2xvdWQKbXZuIHBhY2thZ2UKZWNobyDigJxEb25lIHdpdGggYWxsIHRoZSBpbnN0YWxsYXRpb25zLCBsZXTigJlzIHN0YXJ0IHRoZSBzZXJ2aWNl4oCdCi9iaW4vc2ggL2hvbWUvaXNoZWxsL2Zyci1jbG91ZC9ydW4uc2g=
+      InstanceType: t3a.micro
+      BlockDeviceMappings:
+        - DeviceName: /dev/sda1
+          Ebs:
+            SnapshotId: snap-01bb1cfbb2178b4b8
+            VolumeSize: 20
+            VolumeType: gp3
+            DeleteOnTermination: true
+            Iops: 3000
+            Encrypted: false
+            Throughput: 125
+      InstanceMonitoring: false
+      EbsOptimized: false
+      AssociatePublicIpAddress: true
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: d10facf7-1bad-4458-8e84-6b3a93b57e34
+  AutoScalingLaunchConfiguration5:
+    Type: 'AWS::AutoScaling::LaunchConfiguration'
+    Properties:
+      LaunchConfigurationName: !Sub '${ElasticLoadBalancingV2TargetGroup.TargetGroupName}-202100903'
+      ImageId: ami-0d2333e31cd287878
+      KeyName: !GetAtt ElasticLoadBalancingV2TargetGroup.TargetGroupName
+      SecurityGroups:
+        - !Ref EC2SecurityGroup2
+      UserData: >-
+        IyEgL2Jpbi9iYXNoIC14ZQpleGVjID4gPih0ZWUgL3Zhci9sb2cvdXNlci1kYXRhLmxvZ3xsb2dnZXIgLXQgdXNlci1kYXRhIC1zIDI+L2Rldi9jb25zb2xlKSAyPiYxCmFwdC1nZXQgdXBkYXRlICYmIGFwdC1nZXQgaW5zdGFsbCAteSBhcHQtdXRpbHMKYXB0LWdldCB1cGdyYWRlIC15CkRFQklBTl9GUk9OVEVORD0ibm9uaW50ZXJhY3RpdmUiIGFwdC1nZXQgaW5zdGFsbCAteSBnaXQgc29mdHdhcmUtcHJvcGVydGllcy1jb21tb24KYXB0LWdldCBpbnN0YWxsIC15IG9wZW5qZGstMTEtanJlLWhlYWRsZXNzCmFwdC1nZXQgaW5zdGFsbCAteSBtYXZlbgplY2hvIOKAnERvbmUgd2l0aCBwcmVyZXF1aXNpdGVzIGluc3RhbGwsIGNvbW1hbmRlcuKAnQpta2RpciAvaG9tZS9pc2hlbGwKY2QgL2hvbWUvaXNoZWxsCmVjaG8g4oCcQ2xvbmluZyBEb2xseeKAnQpnaXQgY2xvbmUgLS1kZXB0aCAxIC0tYnJhbmNoIHZlci0xLjQuMCBodHRwczovL2dpdGh1Yi5jb20vaWdhbHIvcmVkbGVhZi1qc29uLmdpdApnaXQgY2xvbmUgLS1kZXB0aCAxIC0tYnJhbmNoIHZlci0yLjExLjMgaHR0cHM6Ly9naHBfWjZPMTB4cEV5MkpiQThXT3ZKZVRhM0xLcm15VTdNMkhacno1QGdpdGh1Yi5jb20vaWdhbHIvcmVkbGVhZi1pc2hlbGwyLmdpdApnaXQgY2xvbmUgLS1kZXB0aCAxIC0tYnJhbmNoIHZlci0yLjExLjQgaHR0cHM6Ly9naHBfWjZPMTB4cEV5MkpiQThXT3ZKZVRhM0xLcm15VTdNMkhacno1QGdpdGh1Yi5jb20vaWdhbHIvcmVkbGVhZi1pc2hlbGwyLWRiLmdpdAplY2hvIOKAnERvbmUgd2l0aCBEb2xseSwgbGV04oCZcyBkbyBzb21lIHdvcmvigJ0KY2QgL2hvbWUvaXNoZWxsL3JlZGxlYWYtanNvbgptdm4gaW5zdGFsbApjZCAvaG9tZS9pc2hlbGwvcmVkbGVhZi1pc2hlbGwyCi4vaW5zdGFsbGphcnMuc2gKbXZuIGluc3RhbGwKY2QgL2hvbWUvaXNoZWxsL3JlZGxlYWYtaXNoZWxsMi1kYgptdm4gaW5zdGFsbApjZCAvaG9tZS9pc2hlbGwKZWNobyDigJxEb25lIHdpdGggaXNoZWxsLCBsZXTigJlzIHNldHVwIEZSUi1DbG91ZOKAnQpnaXQgY2xvbmUgaHR0cHM6Ly9yZWxheW1lZGljYWw6UmUxYXlNZWRpY2ExXCFAYml0YnVja2V0Lm9yZy9pZ2Fsci1jaHJvbWVkeC9mcnItY2xvdWQuZ2l0CmNkIC9ob21lL2lzaGVsbC9mcnItY2xvdWQvU2VydmVyCm12biBwYWNrYWdlCmVjaG8g4oCcRG9uZSB3aXRoIGFsbCB0aGUgaW5zdGFsbGF0aW9ucywgbGV04oCZcyBzdGFydCB0aGUgc2VydmljZeKAnQovYmluL3NoIC9ob21lL2lzaGVsbC9mcnItY2xvdWQvcnVuLnNo
+      InstanceType: t3a.micro
+      BlockDeviceMappings:
+        - DeviceName: /dev/sda1
+          Ebs:
+            SnapshotId: snap-01bb1cfbb2178b4b8
+            VolumeSize: 20
+            VolumeType: gp3
+            DeleteOnTermination: true
+            Iops: 3000
+            Encrypted: false
+            Throughput: 125
+      InstanceMonitoring: false
+      EbsOptimized: false
+      AssociatePublicIpAddress: true
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: b0722d1f-9ad0-4d63-9388-07291d9a9c37
+  EC2NetworkInterface:
+    Type: 'AWS::EC2::NetworkInterface'
+    Properties:
+      Description: ''
+      Ipv6Addresses:
+        - Ipv6Address: '2600:1f11:48d:ce12:d272:cda4:c4b2:bc9a'
+      PrivateIpAddress: !GetAtt EC2Instance2.PrivateIp
+      PrivateIpAddresses:
+        - PrivateIpAddress: !GetAtt EC2Instance2.PrivateIp
+          Primary: true
+      SubnetId: !Ref EC2Subnet2
+      SourceDestCheck: true
+      GroupSet:
+        - !Ref EC2SecurityGroup2
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 553d0d09-cff8-4fb0-b643-2e5630e5e9f2
+  EC2NetworkInterface2:
+    Type: 'AWS::EC2::NetworkInterface'
+    Properties:
+      Description: Primary network interface
+      Ipv6Addresses:
+        - Ipv6Address: '2600:1f11:48d:ce12:d44e:f461:e6e7:30ae'
+      PrivateIpAddress: !GetAtt EC2Instance.PrivateIp
+      PrivateIpAddresses:
+        - PrivateIpAddress: !GetAtt EC2Instance.PrivateIp
+          Primary: true
+      SubnetId: !Ref EC2Subnet2
+      SourceDestCheck: true
+      Tags:
+        - Key: Name
+          Value: !Sub '${ElasticLoadBalancingV2TargetGroup.TargetGroupName}-bastion'
+      GroupSet:
+        - !Ref EC2SecurityGroup3
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: adee46eb-a954-493a-8e06-27fa567124d9
+  EC2NetworkInterface3:
+    Type: 'AWS::EC2::NetworkInterface'
+    Properties:
+      Description: !Sub >-
+        ELB
+        app/${ElasticLoadBalancingV2LoadBalancer.LoadBalancerName}/210b1912bec951c7
+      Ipv6Addresses:
+        - Ipv6Address: '2600:1f11:48d:ce13:7bdb:6ad2:ed9a:ad4c'
+      PrivateIpAddress: 10.1.1.21
+      PrivateIpAddresses:
+        - PrivateIpAddress: 10.1.1.21
+          Primary: true
+      SubnetId: !Ref EC2Subnet
+      SourceDestCheck: true
+      GroupSet:
+        - !Ref EC2SecurityGroup
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 284e930c-4c47-468b-975c-a71ae05bba03
+  EC2NetworkInterface4:
+    Type: 'AWS::EC2::NetworkInterface'
+    Properties:
+      Description: !Sub >-
+        ELB
+        app/${ElasticLoadBalancingV2LoadBalancer.LoadBalancerName}/210b1912bec951c7
+      Ipv6Addresses:
+        - Ipv6Address: '2600:1f11:48d:ce12:3c20:9c82:95bc:5c84'
+      PrivateIpAddress: 10.1.1.5
+      PrivateIpAddresses:
+        - PrivateIpAddress: 10.1.1.5
+          Primary: true
+      SubnetId: !Ref EC2Subnet2
+      SourceDestCheck: true
+      GroupSet:
+        - !Ref EC2SecurityGroup
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 7cea4c87-ae7b-4b39-8db8-a8fc94541d4b
+  EC2Volume:
+    Type: 'AWS::EC2::Volume'
+    Properties:
+      AvailabilityZone: !GetAtt EC2Subnet2.AvailabilityZone
+      Encrypted: false
+      Size: 8
+      VolumeType: gp3
+      SnapshotId: snap-0047ef0baf6569349
+      Tags:
+        - Key: Name
+          Value: !Sub '${ElasticLoadBalancingV2TargetGroup.TargetGroupName}-bastion'
+      MultiAttachEnabled: false
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 9884fc05-47dc-49cf-98e3-59904d97c76f
+  EC2Volume2:
+    Type: 'AWS::EC2::Volume'
+    Properties:
+      AvailabilityZone: !GetAtt EC2Subnet2.AvailabilityZone
+      Encrypted: false
+      Size: 20
+      VolumeType: gp3
+      SnapshotId: snap-01bb1cfbb2178b4b8
+      MultiAttachEnabled: false
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 8324ab29-220a-4fa6-8260-c6427940a62b
+  IAMServiceLinkedRole:
+    Type: 'AWS::IAM::ServiceLinkedRole'
+    Properties:
+      AWSServiceName: autoscaling.amazonaws.com
+      Description: >-
+        Default Service-Linked Role enables access to AWS Services and Resources
+        used or managed by Auto Scaling
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: b1d50503-39b9-440e-b0c6-7d58cf787a10
+  CertificateManagerCertificate:
+    Type: 'AWS::CertificateManager::Certificate'
+    Properties:
+      DomainName: frrc-prod.relaymedical.com
+      SubjectAlternativeNames:
+        - frrc-prod.relaymedical.com
+      DomainValidationOptions:
+        - DomainName: frrc-prod.relaymedical.com
+          ValidationDomain: frrc-prod.relaymedical.com
+      CertificateTransparencyLoggingPreference: ENABLED
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: e61526ff-e3bf-4e2c-a64c-27727098644f
